@@ -118,4 +118,11 @@
       </plugin>
     </plugins>
   </build>
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub ibm-messaging Apache Maven Packages</name>
+      <url>https://maven.pkg.github.com/airazabal/kafka-connect-mq-sink</url>
+    </repository>
+  </distributionManagement>
 </project>
